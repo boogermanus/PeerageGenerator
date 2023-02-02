@@ -6,10 +6,12 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PeerageGeneratorComponent } from './components/peerage-generator/peerage-generator.component';
 import {MatCardModule} from "@angular/material/card";
+import { OptionsComponent } from './components/options/options.component';
 @NgModule({
   declarations: [
     AppComponent,
-    PeerageGeneratorComponent
+    PeerageGeneratorComponent,
+    OptionsComponent
   ],
   imports: [
     BrowserModule,
